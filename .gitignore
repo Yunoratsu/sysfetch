@@ -1,0 +1,8 @@
+#Binaries
+sysfetch
+
+# Objects
+src/*.o
+
+# Generated headers
+src/include/art.h
