@@ -1,5 +1,7 @@
 # sysfetch
 
+![sysfetch screenshot](src/assets/sysfetch.png)
+
 A high-performance, zero-dependency system fetch tool written in C.
 
 ## Features
@@ -7,7 +9,9 @@ A high-performance, zero-dependency system fetch tool written in C.
 - **Raw Syscalls**: Communicates directly with the Linux kernel via `sysinfo` and `/proc`.
 - **Embedded Assets**: ASCII art is baked into the binary at compile-time using `xxd`.
 
-## Building
+### Build from source
 ```bash
+git clone https://github.com/Yunoratsu/sysfetch.git
+cd sysfetch
 make
 sudo make install
